@@ -1,4 +1,5 @@
 # Svelte Persist Store
+![Node.js CI](https://github.com/n0n3br/svelte-persist-store/workflows/Node.js%20CI/badge.svg)
 
 This module makes possible to create writable and readable svelte stores that can be persisted in localStorage or sessionStorage, with or without compression. The created store will be automatically hydrated from the web storage stored value, if there's any. [lz-string](https://github.com/pieroxy/lz-string) is used for compression.
 
