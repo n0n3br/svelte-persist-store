@@ -1,6 +1,6 @@
 {
     "name": "@n0n3br/svelte-persist-store",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "index.js",
     "license": "MIT",
     "scripts": {
@@ -22,5 +22,13 @@
     "dependencies": {
         "lz-string": "^1.4.4",
         "svelte": "^3.20.1"
-    }
+    },
+    "keywords": [
+        "svelte",
+        "store",
+        "persist",
+        "localStorage",
+        "sessionStorage",
+        "compression"
+    ]
 }
