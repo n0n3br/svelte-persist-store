@@ -1,6 +1,6 @@
 # Svelte Persist Store
 
-This module makes possible to create writable and readable svelte stores that can be persisted in localStorage or sessionStorage, with or without comprression. The created store will be autoatically hydrated from the web storage stored value, if there's any. [lz-string](https://github.com/pieroxy/lz-string) is used for compression.
+This module makes possible to create writable and readable svelte stores that can be persisted in localStorage or sessionStorage, with or without compression. The created store will be automatically hydrated from the web storage stored value, if there's any. [lz-string](https://github.com/pieroxy/lz-string) is used for compression.
 
 ## Install
 
