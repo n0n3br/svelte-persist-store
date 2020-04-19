@@ -1,0 +1,26 @@
+{
+    "name": "@n0n3br/svelte-persist-store",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "mocha -r mock-local-storage --require @babel/register",
+        "test:coverage": "nyc mocha -r mock-local-storage --require @babel/register"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.9.0",
+        "@babel/preset-env": "^7.9.5",
+        "@babel/register": "^7.9.0",
+        "chai": "^4.2.0",
+        "eslint": "^6.8.0",
+        "mocha": "^7.1.1",
+        "mock-local-storage": "^1.1.12",
+        "nyc": "^15.0.1",
+        "should": "^13.2.3"
+    },
+    "dependencies": {
+        "lz-string": "^1.4.4",
+        "svelte": "^3.20.1"
+    }
+}
